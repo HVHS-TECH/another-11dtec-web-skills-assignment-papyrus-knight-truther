@@ -1,4 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(65, 53, 59);
   }
   
+  .Container{
+    display:flex;
+    justify-content:center;
+  }
+
+  .Main{
+    display:grid;
+    background-color: rgb(172, 131, 153)
+  }
