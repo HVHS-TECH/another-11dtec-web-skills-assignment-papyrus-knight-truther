@@ -9,5 +9,11 @@ body {
 
   .Main{
     display:grid;
-    background-color: rgb(172, 131, 153)
+    background-color: rgb(172, 131, 153);
+    max-width: 450px;
+  }
+
+  .header{
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
   }
