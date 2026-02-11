@@ -5,6 +5,7 @@ body {
   .Container{
     display:flex;
     justify-content:center;
+    font-family:arial;
   }
 
   .Main{
@@ -16,16 +17,19 @@ body {
   }
 
   .Header{
+    margin:auto 50px;
     grid-row: 1 / 2;
     grid-column: 1 / 5;
   }
 
   .Mihi{
+    margin:auto 50px;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
   }
 
   .AboutMe{
+    margin:auto 50px;
     grid-row: 3 / 4;
     grid-column: 2 / 4;
   }
