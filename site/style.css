@@ -3,17 +3,19 @@ body {
   }
   
   .Container{
-    display:flex;
+    display:grid;
     justify-content:center;
     font-family:arial;
   }
 
   .Main{
+    grid-row:1 / 2;
     display:grid;
     background-color: rgb(172, 131, 153);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
+    border: dashed 2px;
   }
 
   .Header{
@@ -32,4 +34,19 @@ body {
     margin:auto 50px;
     grid-row: 3 / 4;
     grid-column: 2 / 4;
+  }
+
+  .Lists{
+    grid-row: 2 / 3;
+    display:grid;
+    background-color: rgb(172, 131, 153);
+    max-width: 450px;
+    text-align:center;
+    margin:auto 50px;
+    margin-bottom: 50px;
+    border: dashed 2px;
+  }
+
+  .orderandnot{
+    margin:auto 50px;
   }
