@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(65, 53, 59);
+    background-image: url("UTDR_BG.gif");
+    background-repeat:repeat;
   }
   
   .Container{
@@ -11,11 +12,11 @@ body {
   .Main{
     grid-row:1 / 2;
     display:grid;
-    background-color: rgb(172, 131, 153);
+    background-color: rgb(5, 5, 5);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
-    border: dashed 2px;
+    border: solid 2px rgb(32, 247, 86);
   }
 
   .Header{
@@ -39,14 +40,35 @@ body {
   .Lists{
     grid-row: 2 / 3;
     display:grid;
-    background-color: rgb(172, 131, 153);
+    background-color: rgb(5, 5, 5);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
     margin-bottom: 50px;
-    border: dashed 2px;
+    border: dashed 2px rgb(32, 247, 86);
   }
 
   .orderandnot{
     margin:auto 50px;
+  }
+
+  .pictures{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(5, 5, 15);
+    margin:auto 50px;
+    border: solid 4px;
+  }
+
+  .pictures > *{
+    border: dashed 2px rgb(32, 247, 86);
+  }
+
+  .PictureTitle{
+    background-color: rgb(5, 5, 5);
+    font-family:arial;
+    font-size:large;
+    text-align:center;
+    color: rgb(32, 247, 86);
+    border: solid 2px rgb(32, 247, 86);
   }
