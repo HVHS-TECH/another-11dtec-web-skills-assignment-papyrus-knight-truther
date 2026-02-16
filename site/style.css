@@ -57,11 +57,12 @@ body {
     flex-wrap:wrap;
     background-color: rgb(5, 5, 15);
     margin:auto 50px;
-    border: solid 4px;
+    border: solid 2px rgb(32, 247, 86);
   }
 
   .pictures > *{
-    border: dashed 2px rgb(32, 247, 86);
+    border: solid 2px rgb(32, 247, 86);
+    margin: auto 50px;
   }
 
   .PictureTitle{
