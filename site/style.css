@@ -1,18 +1,31 @@
+@font-face {
+  font-family: 'undertale'; 
+  src: url(undertale-deltarune-text-font-extended.ttf); 
+}
+
 body {
     background-image: url("UTDR_BG.gif");
     background-repeat:repeat;
   }
   
+
+  .nav{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
   .Container{
     display:grid;
     justify-content:center;
-    font-family:arial;
+    font-family:undertale;
   }
 
   .Main{
     grid-row:1 / 2;
     color: rgb(32, 247, 86);
     display:grid;
+    grid-gap: 20px;
     background-color: rgb(5, 5, 5);
     max-width: 450px;
     text-align:center;
@@ -31,7 +44,9 @@ body {
     grid-row: 2 / 3;
     grid-column: 2 / 4;
     color: rgb(32, 247, 86);
+    font-size:medium;
   }
+
 
   .AboutMe{
     margin:auto 50px;
@@ -77,4 +92,17 @@ body {
     text-align:center;
     color: rgb(32, 247, 86);
     border: dashed 2px rgb(32, 247, 86);
+  }
+
+  .links{
+    grid-row: 2 / 3;
+    display:grid;
+    background-color: rgb(5, 5, 5);
+    max-width: 450px;
+    text-align:center;
+    margin:auto 50px;
+    margin-bottom: 50px;
+    border: dashed 2px rgb(32, 247, 86);
+    color: rgb(32, 247, 86);
+
   }
