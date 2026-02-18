@@ -11,12 +11,13 @@ body {
 
   .Main{
     grid-row:1 / 2;
+    color: rgb(32, 247, 86);
     display:grid;
     background-color: rgb(5, 5, 5);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
-    border: solid 2px rgb(32, 247, 86);
+    border: dashed 2px rgb(32, 247, 86);
   }
 
   .Header{
@@ -29,6 +30,7 @@ body {
     margin:auto 50px;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
+    color: rgb(32, 247, 86);
   }
 
   .AboutMe{
@@ -46,6 +48,7 @@ body {
     margin:auto 50px;
     margin-bottom: 50px;
     border: dashed 2px rgb(32, 247, 86);
+    color: rgb(32, 247, 86);
   }
 
   .orderandnot{
@@ -56,13 +59,15 @@ body {
     display:flex;
     flex-wrap:wrap;
     background-color: rgb(5, 5, 15);
-    margin:auto 50px;
-    border: solid 2px rgb(32, 247, 86);
+    margin:auto 20px;
+    border: dashed 2px rgb(32, 247, 86);
   }
 
   .pictures > *{
-    border: solid 2px rgb(32, 247, 86);
-    margin: auto 50px;
+    border: dashed 2px rgb(32, 247, 86);
+    margin: auto 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .PictureTitle{
@@ -71,5 +76,5 @@ body {
     font-size:large;
     text-align:center;
     color: rgb(32, 247, 86);
-    border: solid 2px rgb(32, 247, 86);
+    border: dashed 2px rgb(32, 247, 86);
   }
