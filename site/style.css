@@ -10,14 +10,16 @@ body {
   
 
   .topnav {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
+    font-family:undertale;
+    border:solid 1px rgb(32, 247, 86);
   }
   
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: rgb(32, 247, 86);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,12 +31,6 @@ body {
     background-color: #ddd;
     color: black;
   }
-  
- 
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
 
   .Container{
     display:grid;
@@ -43,6 +39,7 @@ body {
   }
 
   .Main{
+    font-family:undertale;
     grid-row:1 / 2;
     color: rgb(32, 247, 86);
     display:grid;
@@ -94,6 +91,7 @@ body {
   .pictures{
     display:flex;
     flex-wrap:wrap;
+    justify-content:center;
     background-color: rgb(5, 5, 15);
     margin:auto 20px;
     border: dashed 2px rgb(32, 247, 86);
@@ -106,9 +104,16 @@ body {
     margin-bottom: 20px;
   }
 
+  .img:hover{
+    transform: scale(1.2);
+  }
+  .img{
+    transition: transform .2s;
+  }
+
   .PictureTitle{
+    font-family:undertale;
     background-color: rgb(5, 5, 5);
-    font-family:arial;
     font-size:large;
     text-align:center;
     color: rgb(32, 247, 86);
