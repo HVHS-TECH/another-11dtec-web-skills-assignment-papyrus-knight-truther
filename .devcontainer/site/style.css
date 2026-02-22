@@ -35,6 +35,7 @@ body {
     display:grid;
     font-family:undertale;
     justify-content: center;
+    margin:auto 50px;
   }
 
   .Main{
@@ -44,11 +45,19 @@ body {
     color: rgb(32, 247, 86);
     display:grid;
     grid-gap: 20px;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
     border: dashed 2px rgb(32, 247, 86);
+    padding:10px;
+  }
+
+  .button{
+    font-family:undertale;
+     color: rgb(32, 247, 86);
+     border: dashed 2px rgb(32, 247, 86);
+     background-color: rgb(0, 0, 0);
   }
 
   .Header{
@@ -63,6 +72,7 @@ body {
     grid-column: 2 / 3;
     color: rgb(32, 247, 86);
     font-size:medium;
+    padding:20px;
   }
 
 
@@ -76,7 +86,7 @@ body {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     display:grid;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
@@ -93,7 +103,7 @@ body {
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    background-color: rgb(5, 5, 15);
+    background-color: rgb(0, 0, 0);
     margin:auto 20px;
     border: dashed 2px rgb(32, 247, 86);
   }
@@ -117,7 +127,7 @@ body {
 
   .PictureTitle{
     font-family:undertale;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     font-size:large;
     display: flex;
     flex-direction:row;
@@ -129,7 +139,7 @@ body {
   .links{
     grid-row: 2 / 3;
     display:grid;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     max-width: 450px;
     text-align:center;
     margin:auto 50px;
