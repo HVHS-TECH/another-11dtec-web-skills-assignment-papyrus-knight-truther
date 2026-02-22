@@ -16,10 +16,6 @@ body {
     border:solid 1px rgb(32, 247, 86);
   }
   
-  .audio{
-    height: 20px;
-  }
-  
   .topnav a {
     float: left;
     color: rgb(32, 247, 86);
